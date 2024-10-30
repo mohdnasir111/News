@@ -8,7 +8,7 @@ const getData = async(input) => {
   let jsonData = await res.json();
   console.log(jsonData.articles);
   cardData.innerHTML="";
-  jsonData.articles.ForEach(function(article)
+  jsonData.articles.ForEach(function(articles)
                             {
     console.log(article);
     let divs = document.createElement("div");
