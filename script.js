@@ -6,9 +6,8 @@ let searchType = document.getElementById("type");
 const getData = async(input) => {
   let res = await fetch(`https://newsapi.org/v2/everything?q=${input}&apiKey=${key}`);
   let jsonData = await res.json();
-  console.log(jsonData.articles);
   cardData.innerHTML="";
-  jsonData.articles.ForEach(function(article){
+  jsonData.articles.forEach(article => {
     console.log(article);
     let divs = document.createElement("div");
   divs.classList.add("card");
