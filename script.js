@@ -1,4 +1,4 @@
-let key = "d4cc825615d24733ad8abcc136e4f5cb";
+let key = "2b196b27e1b54405a8d06c233f16a7b5";
 let cardData = document.querySelector(".cardData");
 let SearchBtn = document.getElementById("searchBtn");
 let inputData = document.getElementById("inputData");
